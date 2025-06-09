@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">test_Nhanh01</string>
+    <!-- res/values/strings.xml -->
+    <string name="btn_submit_text">Go to next screen</string>
+    <string name="hint_enter_name">Enter your name</string>
+    <string name="result_text">Hello, Name!</string>
+    <string name="random_number_text">Random number:</string>
 </resources>

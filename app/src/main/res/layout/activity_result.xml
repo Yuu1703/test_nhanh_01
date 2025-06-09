@@ -3,20 +3,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@drawable/anhnen"> <!-- ảnh nền -->
 
     <TextView
         android:id="@+id/tv_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello, Name!"
-        android:textSize="18sp" />
+        android:text="@string/result_text"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF" /> <!-- chữ trắng -->
 
     <TextView
         android:id="@+id/tv_random_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Random number: "
+        android:text="@string/random_number_text"
         android:textSize="18sp"
-        android:layout_marginTop="16dp"/>
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF" /> <!-- chữ trắng -->
 </LinearLayout>
